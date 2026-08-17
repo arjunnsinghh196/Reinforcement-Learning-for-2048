@@ -144,28 +144,6 @@ jupyter notebook        # for the two .ipynb files
 
 ---
 
-## Results
-
-Fill this in after your own training run — the table below is a placeholder.
-
-| Configuration | Episodes | Avg score | Max score | 2048 win rate |
-|---|---|---|---|---|
-| 4×6-tuple, α = 0.1 | — | — | — | — |
-
-The reference figures quoted in TDL2048-Demo for the 4×6-tuple network after 100k games are roughly 68k average score and a ~91% 2048 win rate; landing near those confirms a run is behaving correctly.
-
----
-
-## Open TODOs
-
-- [ ] Write the missing training loop in `frozen_lake.ipynb`
-- [ ] Remove the duplicated training loop in `gfg4.py`
-- [ ] Log 2048 training curves to a file and plot average score against episodes
-- [ ] Try the 8×6-tuple network and compare against 4×6
-- [ ] Implement an expectimax baseline to measure how much of the gap to strong play TD closes
-
----
-
 ## Attribution
 
 This repository contains third-party code, kept for study purposes:
